@@ -1,4 +1,3 @@
-## Runtime: 
-o(n^2) 
-##​ Memory Usage: 
-o(n)
+## Complexity
+Runtime: o(n^2) 
+Memory Usage: o(n)
