@@ -1,5 +1,5 @@
 ## My Solution's Complexity
 ```
-Runtime: o(n^2) 
+Runtime: o(n log (n)) 
 Memory Usage: o(n)
 ```
