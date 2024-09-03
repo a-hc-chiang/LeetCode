@@ -1,5 +1,10 @@
 class Solution:
     def getLucky(self, s: str, k: int) -> int:
+        '''
+        My Solution's Complexity
+        Runtime: o(n^2) 
+        Memory Usage: o(n)
+        '''
         res = 0
         resStr = ""
         for c in s: 
