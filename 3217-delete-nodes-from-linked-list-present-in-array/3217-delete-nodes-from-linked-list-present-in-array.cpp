@@ -27,12 +27,12 @@ public:
                 delete temp2; 
             }
         }
-        unsigned int i = 0; //first iterator tracker
+        bool i = true; //first iterator tracker
         for (ListNode* l: vec) {
-            if (i == 0) { //check if first iteration 
+            if (i) { //check if first iteration 
                 head = l; 
                 temp = head; 
-                i++; 
+                i = false; 
             } else {
                 temp -> next = l; 
                 temp = temp -> next; 
