@@ -1,5 +1,6 @@
 class Solution:
     def minimumLength(self, s: str) -> int:
+        # runtime complexity: o(n), space complexity: o(n) -- solution can be better by using counters tho 
         res = 0 
         curr_counter = 0
         s_dict = {} 
