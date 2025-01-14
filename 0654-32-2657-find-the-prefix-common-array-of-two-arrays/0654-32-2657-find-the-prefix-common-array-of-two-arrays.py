@@ -1,5 +1,6 @@
 class Solution:
     def findThePrefixCommonArray(self, A: List[int], B: List[int]) -> List[int]:
+        # time complexity: o(n), space complexity: o(n) 
         a_set = set()
         b_set = set() 
         res = [] 
@@ -10,4 +11,3 @@ class Solution:
                 b_set.add(B[i])
             res.append(len(a_set.intersection(b_set)))
         return res 
-
