@@ -5,4 +5,4 @@
   ## Currently I've solved:
   - 3 problem(s) in C++
   - 2 problem(s) in Java
-  - 14 problems(s) in Python
+  - 15 problems(s) in Python
